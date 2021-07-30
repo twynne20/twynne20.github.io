@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Tyson Wynne</title><subtitle>Super-fast Jekyll framework</subtitle><updated>2021-07-29T23:56:27-07:00</updated><id>https://tysonwynne.com//</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://tysonwynne.com//" /><link rel="self" type="application/atom+xml" href="https://tysonwynne.com//feed.xml" /><author><name>Tyson Wynne</name><uri>https://tysonwynne.com//</uri><email>wynnetyson0@gmail.com</email></author><entry><title>Getting Started with Consumer Robotics</title><id>https://tysonwynne.com//Consumer-Robotics0.html</id><link rel="alternate" type="text/html" href="https://tysonwynne.com//Consumer-Robotics0.html" /><published>2021-07-29T00:00:00-07:00</published><updated>2021-07-29T01:47:11-07:00</updated><author><name>Tyson Wynne</name><uri>https://sparanoid.com/</uri><email>wynnetyson0@gmail.com</email></author><content type="html" xml:base="https://tysonwynne.com//">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Tyson Wynne</title><subtitle>Super-fast Jekyll framework</subtitle><updated>2021-07-30T00:11:28-07:00</updated><id>https://tysonwynne.com//</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://tysonwynne.com//" /><link rel="self" type="application/atom+xml" href="https://tysonwynne.com//feed.xml" /><author><name>Tyson Wynne</name><uri>https://tysonwynne.com//</uri><email>wynnetyson0@gmail.com</email></author><entry><title>Social Browser Extension</title><id>https://tysonwynne.com//Social-Browser-Extension.html</id><link rel="alternate" type="text/html" href="https://tysonwynne.com//Social-Browser-Extension.html" /><published>2021-07-29T00:00:00-07:00</published><updated>2021-07-29T02:28:57-07:00</updated><author><name>Tyson Wynne</name><uri>https://sparanoid.com/</uri><email>wynnetyson0@gmail.com</email></author><content type="html" xml:base="https://tysonwynne.com//">
+          
+            &lt;h2 id=&quot;problem-definition&quot;&gt;Problem Definition:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chrome Web Extension to mine web usage topics + recommend web articles&lt;/li&gt;
+  &lt;li&gt;Construct a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;knowledge graph&lt;/code&gt; of the user based on browsing data&lt;/li&gt;
+  &lt;li&gt;Recommend articles based on the graph e.g. User reads articles about Stephen Curry, Tom Brady, and the system recommends articles on Leo Messi, LeBron James, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-set-description&quot;&gt;Data Set Description:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;No dataset for user web browsing&lt;/li&gt;
+  &lt;li&gt;Instead, use the Never-Ending Language Learner (NELL) from CMU’s Read the Web project to get a pre-trained ontology.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;process-description&quot;&gt;Process Description:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Collect browsing data on Google Chrome Extension&lt;/li&gt;
+  &lt;li&gt;Send url list to Flask Application on EC2 Instance&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Construct knowledge graph&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Compute Page Rank&lt;/li&gt;
+  &lt;li&gt;Return recommendations to browser extension (user)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images:&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;http://tysonwynne.com/browserExtension.png&quot; alt=&quot;FutureDevelopment&quot; class=&quot;size-small&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://tysonwynne.com/futureDevelopment.png&quot; alt=&quot;FutureDevelopment&quot; class=&quot;size-small&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/twynne20/semantic-web-mining&quot;&gt;Semantic Knowledge Graph Repository&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content><summary>Problem Definition:  Chrome Web Extension to mine web usage topics + recommend web articles  Construct a knowledge graph of the user based on browsing data  Recommend articles based on the graph e.g. User reads articles about Stephen Curry, Tom Brady, and the system recommends articles on Leo Messi, LeBron James, etc.</summary></entry><entry><title>Getting Started with Consumer Robotics</title><id>https://tysonwynne.com//Consumer-Robotics0.html</id><link rel="alternate" type="text/html" href="https://tysonwynne.com//Consumer-Robotics0.html" /><published>2021-07-29T00:00:00-07:00</published><updated>2021-07-29T01:47:11-07:00</updated><author><name>Tyson Wynne</name><uri>https://sparanoid.com/</uri><email>wynnetyson0@gmail.com</email></author><content type="html" xml:base="https://tysonwynne.com//">
           
             &lt;h2 id=&quot;motivation&quot;&gt;Motivation:&lt;/h2&gt;
 &lt;ul&gt;
