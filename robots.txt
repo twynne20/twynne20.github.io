@@ -1,3 +1,3 @@
-Sitemap: https://twynne20.github.io/sitemap.xml
+Sitemap: https://tysonwynne.com//sitemap.xml
 
 User-agent: *
